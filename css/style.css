@@ -1,0 +1,296 @@
+/*------------------------------------*\
+  #GLOBAL
+\*------------------------------------*/
+
+.container{
+    padding: 1.87rem 1.87rem 0rem 1.87rem;
+
+}
+
+ul{
+    list-style: none;
+    padding: 0rem;
+}
+
+.fa-solid{
+    color: #f66151;
+}
+
+.btn-primary{
+    background: rgba(254, 120, 78, 0.30);
+    --bs-btn-active-bg:#FE784E;
+    --bs-btn-hover-bg: #FE784E;
+    border: none;
+    font-weight: 400;
+    color: #FE784E;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-primary:active, .btn-primary:hover, .active{
+    box-shadow: 0px 5px 11px 0px rgba(254, 120, 78, 0.28);
+}
+
+h3{
+    color: #752A00;
+}
+
+/* FONT WEIGHT */
+
+main .card-title, main .card-rating,.video .btn{
+    font-weight: 500; 
+}
+
+/*------------------------------------*\
+  #HEADER
+\*------------------------------------*/
+
+header{
+    font-family: 'Roboto', sans-serif;
+}
+
+header .header-buttons{
+    padding-bottom: 2.44rem;
+}
+
+header .form-control:focus{
+    background: rgba(255, 255, 255, 0);
+}
+
+header .header-search{
+    font-size: 0.8125rem;
+    border-radius: 1.375rem;
+    background: #F8F8F8;
+    box-shadow: 0px 4px 15px 0px rgba(0, 0, 0, 0.10);
+    height: 3.5rem;
+}
+
+header .search-button{
+    border: none;
+    background: rgba(255, 255, 255, 0);
+}
+
+header .search-input{
+    border: none;
+    background: rgba(255, 255, 255, 0);
+    outline: none;
+}
+
+header .search-input::placeholder{
+    opacity: 1;
+    color: #a6a6a6;
+}
+
+/*------------------------------------*\
+  #MAIN
+\*------------------------------------*/
+
+main{
+    font-family: 'Poppins', sans-serif;
+    padding-top: 3.5rem;
+}
+
+main h3{
+    font-size: 1.25rem;
+}
+
+main .category ul{
+    margin-top: 1.13rem;
+    margin-bottom: 2.3rem;
+}
+
+main .category .btn-primary{
+    font-size: 0.875rem;
+    padding: 0.19rem 0.75rem 0.13rem 0.75rem;
+}
+
+
+main .found-recipes{
+    margin-left: 0rem;
+    margin-right: -1rem;
+}
+
+/*------------------------------------*\
+  #MAIN CARD
+\*------------------------------------*/
+
+main .card{
+    height: 13rem;
+    padding: 0rem;
+    border: none;
+    box-shadow: 0px 4px 15px 0px rgba(95, 95, 95, 0.28);
+}
+
+main .card img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 60%;
+}
+
+main .card-title{
+    font-size: 0.75rem;
+}
+
+main .card-rating{
+    text-align: center;
+    color: #979797;
+    margin: 0rem;
+}
+
+main .card-info, main .card-rating{
+    font-size: 0.5625rem;
+}
+
+main .card-info .cooking-time{
+    color: #5F5F5F;
+    margin-right: 0.25rem;
+}
+
+main .card-info .category-tag{
+    color: #404040;
+    margin-left: 0.25rem;
+}
+
+main .card-info{
+    margin: 0rem;
+}
+
+/*------------------------------------*\
+  #RECIPE
+\*------------------------------------*/
+
+.recipe-button, .video, .recipe-info, .recipe .card{
+    font-family: 'Poppins', sans-serif;
+}
+/*------------------------------------*\
+  #RECIPE BUTTONS
+\*------------------------------------*/
+.recipe-button_go-back, .recipe-button_like{
+    width: 2.9rem;
+    height: 2.9rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.recipe-button_go-back{
+    background: #FF6433;
+    --bs-btn-active-bg:#FF6433;
+    --bs-btn-hover-bg: #FF6433;
+    border: none;
+}
+
+.recipe-button_like{
+    background: rgba(255, 100, 51, 0.17);
+    --bs-btn-active-bg:rgba(255, 100, 51, 0.17);
+    --bs-btn-hover-bg: rgba(255, 100, 51, 0.17);
+    border: none;
+}
+/*------------------------------------*\
+  #RECIPE VIDEO
+\*------------------------------------*/
+
+.video{
+    padding-top: 3rem;
+    padding-bottom: 2.3rem;
+    text-align: center;
+}
+
+.video h4{
+    font-size: 1.8125rem;
+}
+
+.video .card, .video .card-img-overlay{
+    height: 17rem;
+}
+
+.video .card, .video .card-img, .video .card-img-overlay{
+    border-radius: 1.25rem;
+    color: white;
+    border: none;
+}
+
+.video .card-img{
+    object-fit: cover;
+    object-position: center;
+    width: 100%;
+    height: 100%;
+}
+
+.video .card-img-overlay{
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(255, 61, 0, 0.47) 100%);
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.video .watch-cooking-video{
+    border-radius: 0.9375rem;
+    background-color: white;
+    margin-top: 1.81rem;
+
+}
+
+.video .btn{
+    border: none;
+    padding: 0.88rem;
+    font-size: 0.9375rem;
+    background: linear-gradient(95deg, #F89B29 7.84%, #FF0F7B 112.76%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+/*------------------------------------*\
+  #RECIPE INFO
+\*------------------------------------*/
+
+.recipe-info .recipe-info__buttons{
+    font-size: 1.25rem;
+    padding-bottom: 2.75rem;
+}
+
+.recipe-info .btn-primary{
+    font-size: 1.25rem;
+    padding-top: 0.7rem;
+    padding-bottom: 0.7rem;
+}
+
+.ingredients-count{
+    padding-bottom: 1rem;
+}
+
+.ingredients-list{
+    display: flex;
+    flex-direction: column;
+    row-gap: 1rem;
+    margin-bottom: 5rem;
+}
+
+.ingredients-list li{
+    border-radius: 0.75rem;
+    background: rgba(255, 197, 164, 0.15);
+    padding: 0.87rem;
+    padding-left: 1.25rem;
+    color: #FF5C00;
+    text-shadow: 0px 2px 12px rgba(255, 92, 0, 0.60);
+    font-size: 0.8125rem;
+}
+
+.ingredients-list .fa-solid{
+    padding-right: 1rem;
+    text-shadow: none;
+}
+
+/*------------------------------------*\
+  #RECIPE BOTTOM OVERLAY
+\*------------------------------------*/
+
+.recipe-bottom-overlay{
+    height: 6.75rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, #FFF 100%);
+}
